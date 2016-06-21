@@ -1,0 +1,155 @@
+.thumbnail {
+	height: 480px;
+	overflow: auto;
+}
+
+.wrapper {
+margin: 15px auto;
+height: 480px;
+padding-top: 20px;
+padding-right: 20px;
+padding-left: 20px;
+background: white;
+border-radius: 10px;
+-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+-moz-box-shadow:    0px 0px 8px rgba(0,0,0,0.3);
+box-shadow:         0px 0px 8px rgba(0,0,0,0.3);
+position: relative;
+z-index: 90;
+}
+
+.profile-image  {
+	width: 30px;
+	height: 30px;
+    position: relative;
+    top: -5px;
+    float: left;
+    left: -5px;
+}
+
+body {
+	padding-top: 70px;
+}
+
+
+.alertDiv{
+  position:absolute;
+  top: 70px;
+	z-index: 100;
+}
+
+img.round {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+   position: absolute;
+   top: 25%;
+   left: 0;
+   width: 100%;
+}
+
+h2 span {
+   color: white;
+/*   font: bold 24px/45px Helvetica, Sans-Serif; */
+	 font-family: 'Courgette', cursive;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 6px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+	background-color: #F2F2F2;
+  margin-bottom: 200px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+  background-color: #DEDEDE;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+.input-group-addon {
+    min-width:100px;
+    text-align:left;
+}
+
+.input-group {
+	padding:10px;
+}
+
+.input-custom {
+	min-width:200px;
+}
+
+.jumbotron {
+  height: 175px;
+  color: white;
+  background-image: url("../img/background-hero.jpg");
+	background-size: 100%;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #023973;
+    border-color: #023973;
+}
+
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: white;
+    background-color: #004a82;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: white;
+    border-bottom-color: white;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: white;
+    border-bottom-color: white;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: white;
+    border-bottom-color: white;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #004a82;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #004a82;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #004a82;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta name="description" content="RBS Virtual Accounts App">
+  <meta name="author" content="Pizza Crunch">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" sizes="120x120" href="login/img/touch-icon-iphone-retina.png">
+
+  <title>RBS Virtual Accounts App</title>
+
+  <!-- CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/login.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Alerts -->
+    <div id="alerts"></div>
+  <!-- /.container -->
+
+  <!-- Page Content -->
+    <div class="container wrapper text-center">
+      <div class="login-title">
+          <img src="img/login-logo.png">
+      </div>
+      <div>
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <label class="control-label col-md-2" for="email">Username:</label>
+          <div class="col-md-9">
+            <input type="text" class="form-control" id="username" placeholder="Enter username">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-md-2" for="pwd">Password:</label>
+          <div class="col-md-9">
+            <input type="password" class="form-control" id="password" placeholder="Enter password">
+          </div>
+        </div>
+      </form>
+    </div>
+      <div class="login-buttons">
+        <button id="login" name="singlebutton" class="btn btn-default text-center btn-custom" onclick="login();">
+          <span class="glyphicon glyphicon-log-in"></span> Login</button>
+      </div>
+    </div>
+  <!-- /.container -->
+
+  <!-- jQuery JavaScript  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="js/config.js"></script>
+  <script src="js/alert.js"></script>
+  <script src="js/login.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+body {
+	background-color: #F2F2F2;
+}
+
+p {
+	 font-size: 120%;
+}
+
+.alertDiv{
+  position:absolute;
+  top: 70px;
+	z-index: 100;
+}
+
+.login-title{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.login-buttons{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	position:relative;
+}
+
+.login-content{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.btn-custom{
+	width: 160px;
+}
+
+.wrapper {
+  margin: 50px auto;
+  width: 70%;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 8px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 8px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 90;
+}
